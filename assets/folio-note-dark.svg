@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="47" viewBox="0 0 720 47" role="img" aria-labelledby="title desc">
+<title id="title">Building, exploring, refining</title><desc id="desc">Building thoughtful products. Exploring intelligent workflows. Making small details matter.</desc>
+<style>
+.caption { font-family: Georgia, 'Times New Roman', serif; font-size: 26px; font-style: italic; fill: #e9edf2; text-anchor: middle; }
+.one { opacity: 1; animation: first-line 18s ease-in-out infinite; }
+.two { opacity: 0; animation: second-line 18s ease-in-out infinite; }
+.three { opacity: 0; animation: third-line 18s ease-in-out infinite; }
+@keyframes first-line { 0%,26%,100% { opacity:1; } 31%,94% { opacity:0; } }
+@keyframes second-line { 0%,28%,64%,100% { opacity:0; } 33%,59% { opacity:1; } }
+@keyframes third-line { 0%,61%,97%,100% { opacity:0; } 66%,92% { opacity:1; } }
+@media (prefers-reduced-motion: reduce) {
+ .caption { animation: none; } .one { opacity:1; } .two,.three { opacity:0; }
+}
+</style>
+<text class="caption one" x="360.0" y="31">building thoughtful products.</text>
+<text class="caption two" x="360.0" y="31">exploring intelligent workflows.</text>
+<text class="caption three" x="360.0" y="31">making small details matter.</text>
+</svg>

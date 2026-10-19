@@ -1,6 +1,6 @@
 # Folio / Arush Maurya
 
-The selected Folio concept, adapted for GitHub profile READMEs. A serif wordmark and six section dividers provide the visual identity; all detailed content remains native Markdown or simple GitHub-supported HTML.
+The selected Folio concept, adapted for GitHub profile READMEs. A serif wordmark and five section dividers provide the visual identity; the compact introduction, project summaries, toolkit, activity, and contact links remain native Markdown or simple GitHub-supported HTML.
 
 ## Design
 
@@ -8,7 +8,17 @@ The selected Folio concept, adapted for GitHub profile READMEs. A serif wordmark
 - Georgia-style serif wordmark and section titles, with a restrained terracotta accent.
 - Native project descriptions, accessible image alternatives, simple tables, and ordinary links.
 - Vertically stacked projects to keep descriptions readable on narrow screens.
-- No scripts, external font requests, third-party image generators, or animated decorations are required to display the profile.
+- No scripts, external font requests, or third-party image generators are required to display the profile.
+- Short introduction, one-line project summaries, and a compact grouped toolkit replace the previous résumé-style descriptions.
+
+## Motion
+
+Two locally hosted SVG animations add motion without changing the Folio identity:
+
+- The wordmark's small terracotta ink mark travels slowly along the existing hairline on a 16-second loop. The name remains still.
+- A serif tagline gently crossfades between three short lines on an 18-second loop. Desktop and mobile variants keep the lettering readable.
+
+The SVGs use their own CSS; no README-level CSS or JavaScript is needed. Both stop animating when `prefers-reduced-motion: reduce` is active, showing a static accent and the first caption. If animation styling is unavailable, those same defaults remain readable.
 
 ## Content sources
 
@@ -31,4 +41,4 @@ To update it, change the counts and date in `assets/activity-light.svg`, `assets
 
 `README.md` and `assets/` are the profile files. Keep their relative paths together in the existing public `Arush1901/Arush1901` repository. `DESIGN.md` records design and content decisions and does not appear on the profile.
 
-The former Observatory README, blueprint, and artwork were replaced locally. Existing Git history is preserved. Publishing requires committing and pushing the local changes to the repository; no push is performed as part of this design change.
+The former Observatory README, blueprint, and artwork were replaced. Existing Git history is preserved. Publish revisions by committing and pushing the README and assets together to the existing repository.
