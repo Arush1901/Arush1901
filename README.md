@@ -106,4 +106,13 @@ I’m **Arush Maurya**, a CSE student at **Chandigarh University (2023–2027)**
 
 <br />
 
-<p align="center"><sub>ARUSH MAURYA / ALWAYS IN DEVELOPMENT</sub></p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/living-edition-mobile-dark-still.svg" />
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/living-edition-mobile-light-still.svg" />
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/living-edition-dark-still.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/living-edition-light-still.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/living-edition-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/living-edition-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/living-edition-dark.svg" />
+  <img src="./assets/living-edition-light.svg" width="100%" alt="A little work, every day. An animated landscape shaped by my GitHub contributions." />
+</picture>
