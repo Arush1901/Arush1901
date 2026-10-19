@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-labelledby="title desc">
+<title id="title">GitHub public snapshot</title><desc id="desc">19 October 2026: 20 public repositories, 3 followers, 3 following. Static snapshot.</desc>
+<text x="128" y="76" text-anchor="middle" fill="#20252b" font-family="Georgia, serif" font-size="74">20</text>
+<text x="128" y="120" text-anchor="middle" fill="#626c78" font-family="Consolas, monospace" font-size="21" letter-spacing="0.2">PUBLIC REPOSITORIES</text>
+<text x="480" y="76" text-anchor="middle" fill="#20252b" font-family="Georgia, serif" font-size="74">3</text>
+<text x="480" y="120" text-anchor="middle" fill="#626c78" font-family="Consolas, monospace" font-size="21" letter-spacing="0.2">FOLLOWERS</text>
+<text x="832" y="76" text-anchor="middle" fill="#20252b" font-family="Georgia, serif" font-size="74">3</text>
+<text x="832" y="120" text-anchor="middle" fill="#626c78" font-family="Consolas, monospace" font-size="21" letter-spacing="0.2">FOLLOWING</text>
+
+</svg>
